@@ -1,0 +1,23 @@
+name: Daily Portfolio Keep-Alive
+
+on:
+  schedule:
+    # Runs automatically every day at 00:00 UTC (5:30 AM IST)
+    - cron: '0 0 * * *'
+  workflow_dispatch: # Allows manual trigger anytime from GitHub Actions tab
+
+jobs:
+  ping-website:
+    name: Ping Vercel Portfolio
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send Daily Request to Vercel Website
+        run: |
+          echo "Pinging https://subhash-pgv.vercel.app/ ..."
+          HTTP_STATUS=$(curl -s -o /dev/null -w "%{http_code}" https://subhash-pgv.vercel.app/)
+          echo "HTTP Status Code: $HTTP_STATUS"
+          if [ "$HTTP_STATUS" -eq 200 ]; then
+            echo "Website is active and responding successfully!"
+          else
+            echo "Website returned HTTP status $HTTP_STATUS"
+          fi
