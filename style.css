@@ -1743,7 +1743,7 @@ ul {
         flex-shrink: 0;
     }
 
-    /* Perfectly Centered & Responsive Mobile Floating Glass Quick Nav Bar */
+    /* Perfectly Centered & Responsive Mobile Floating Glass Quick Nav Bar - Active on <= 1024px Viewports */
     .mobile-quick-nav {
         display: flex !important;
         position: fixed !important;
@@ -1753,10 +1753,10 @@ ul {
         margin: 0 auto !important;
         width: auto !important;
         max-width: 380px !important;
-        z-index: 99999 !important;
+        z-index: 999999 !important;
         background: rgba(11, 15, 25, 0.95) !important;
-        backdrop-filter: blur(20px);
-        -webkit-backdrop-filter: blur(20px);
+        backdrop-filter: blur(20px) !important;
+        -webkit-backdrop-filter: blur(20px) !important;
         border: 1px solid rgba(255, 255, 255, 0.18) !important;
         border-radius: 9999px !important;
         padding: 4px 6px !important;
@@ -1764,6 +1764,8 @@ ul {
         align-items: center !important;
         box-shadow: 0 12px 35px rgba(0, 0, 0, 0.8), 0 0 25px rgba(99, 102, 241, 0.3) !important;
         box-sizing: border-box !important;
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
     }
 
     .qnav-item {
