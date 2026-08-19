@@ -4,345 +4,986 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Subhash PGV | Software Tester & Automation Engineer</title>
+    <title>Subhash PGV | QA Engineer | Software Testing | AEM | Business Applications</title>
     <meta name="description"
-        content="Portfolio of Subhash PGV, a Software Tester & Automation Engineer specializing in Selenium, Java, and AI-driven testing.">
+        content="Portfolio of Subhash PGV, QA Engineer with 4.7 years of overall professional experience in software testing, enterprise web applications, AEM, API testing, automation, SQL validation, and business applications.">
+    <meta name="keywords"
+        content="Subhash PGV, QA Engineer, QA Analyst, Software Testing, Manual Testing, Automation Testing, Selenium, API Testing, Postman, SQL, AEM QA, Adobe Experience Manager, Enterprise Application Testing, Applicant Tracking System, Dynamics 365, Power Platform, Freelance Website Development">
+    <meta name="author" content="Subhash PGV">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Subhash PGV | QA Engineer | Business Applications">
+    <meta property="og:description"
+        content="QA Engineer with 4.7 years of overall professional experience (2+ years in IT QA) specializing in enterprise applications, AEM, API testing, and Microsoft Business Applications.">
+    <meta property="og:type" content="website">
+
+    <!-- Fonts & Icons -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <nav class="navbar">
+    <!-- Header Navigation -->
+    <header class="navbar" id="navbar">
         <div class="container nav-container">
-            <a href="#" class="logo">Subhash<span class="accent">.</span></a>
-            <button class="mobile-toggle" aria-label="Toggle navigation">
+            <a href="#home" class="logo" aria-label="Subhash PGV Home">Subhash<span class="accent">PGV</span></a>
+            <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle Navigation Menu" aria-expanded="false">
                 <span class="bar"></span>
                 <span class="bar"></span>
                 <span class="bar"></span>
             </button>
-            <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#contact" class="btn-nav">Contact Me</a></li>
-            </ul>
-        </div>
-    </nav>
-
-    <header class="hero" id="home">
-        <div class="container hero-container">
-            <div class="hero-content">
-                <span class="greeting">Hello, I'm</span>
-                <h1 class="hero-title">Subhash PGV</h1>
-                <h2 class="hero-subtitle">Software Tester <span class="divider">|</span> Automation Engineer</h2>
-                <p class="hero-tagline">“Testing with precision. Automating with intelligence.”</p>
-                <div class="hero-buttons">
-                    <a href="#projects" class="btn btn-primary">View Projects</a>
-                    <a href="#contact" class="btn btn-outline">Contact Me</a>
-                    <a href="https://drive.google.com/file/d/YOUR_FILE_ID/view" target="_blank" class="btn btn-text"><i
-                            class="fas fa-download"></i> Resume</a>
-                </div>
-            </div>
-            <div class="hero-visual">
-                <div class="visual-wrapper">
-                    <img src="hero-image.png" alt="Hero Image" class="hero-img">
-                    <div class="glow-effect"></div>
-                </div>
-            </div>
+            <nav class="nav-menu">
+                <ul class="nav-links">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#journey" class="nav-link">Journey</a></li>
+                    <li><a href="#experience" class="nav-link">Experience</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#freelance" class="nav-link">Freelance</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#business-apps" class="nav-link">Business Apps</a></li>
+                    <li><a href="#contact" class="nav-link btn-nav">Contact</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
 
-    <section id="about" class="section about-section">
-        <div class="container">
-            <h2 class="section-title">About Me</h2>
-            <div class="about-content">
-                <p class="about-text">
-                    I am a passionate Software Tester & Automation Engineer with 1 year of experience in Manual &
-                    Automation Testing.
-                    Currently working at <strong>Svegile</strong>, I specialize in QA methodologies, debugging, and
-                    creating efficient documentation.
-                    I have a strong drive for automation, AI testing, and optimizing workflows to ensure the highest
-                    software quality.
-                </p>
-                <div class="interests">
-                    <h3>Interests</h3>
-                    <div class="interest-tags">
-                        <span class="tag"><i class="fas fa-plane"></i> Travel</span>
-                        <span class="tag"><i class="fas fa-camera"></i> Mobile Photography</span>
-                        <span class="tag"><i class="fas fa-utensils"></i> Cooking</span>
-                        <span class="tag"><i class="fas fa-chess"></i> Chess</span>
-                        <span class="tag"><i class="fas fa-video"></i> Tech Reels</span>
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="hero-bg-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+            </div>
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <div class="badge-pill">
+                        <span class="pulse-dot"></span> Available for QA & Business Application Roles
+                    </div>
+                    <h1 class="hero-name">Subhash PGV</h1>
+                    <h2 class="hero-primary-headline">
+                        QA Engineer <span class="divider">|</span> Manual & Automation Testing <span
+                            class="divider">|</span> API <span class="divider">|</span> AEM
+                    </h2>
+                    <p class="hero-secondary-headline">
+                        <i class="fas fa-compass accent-icon"></i> Exploring Business Applications, Dynamics 365 & Power
+                        Platform
+                    </p>
+                    <p class="hero-short-intro">
+                        QA Engineer with <strong>4.7 years of overall professional experience</strong>, including
+                        <strong>2+ years in IT quality assurance</strong> for enterprise web applications, AEM websites,
+                        e-commerce platforms, and applicant tracking systems.
+                    </p>
+
+                    <!-- Key Strengths Badges -->
+                    <div class="hero-badges">
+                        <span class="badge"><i class="fas fa-check-circle"></i> Manual Testing</span>
+                        <span class="badge"><i class="fas fa-robot"></i> Automation Testing</span>
+                        <span class="badge"><i class="fas fa-network-wired"></i> API Testing</span>
+                        <span class="badge"><i class="fas fa-database"></i> SQL Validation</span>
+                        <span class="badge"><i class="fas fa-cubes"></i> AEM QA</span>
+                        <span class="badge"><i class="fas fa-vial"></i> Selenium</span>
+                        <span class="badge"><i class="fab fa-java"></i> Java</span>
+                        <span class="badge"><i class="fas fa-sync-alt"></i> Agile/Scrum</span>
+                    </div>
+
+                    <!-- CTA Buttons -->
+                    <div class="hero-ctas">
+                        <a href="#projects" class="btn btn-primary"><i class="fas fa-briefcase"></i> View My Work</a>
+                        <a href="Subhash_PGV_Resume.pdf" target="_blank" download="Subhash_PGV_Resume"
+                            class="btn btn-outline"><i class="fas fa-file-download"></i> Download Resume</a>
+                        <a href="#contact" class="btn btn-secondary"><i class="fas fa-paper-plane"></i> Let's
+                            Connect</a>
+                    </div>
+                </div>
+
+                <div class="hero-visual">
+                    <div class="profile-card-wrapper">
+                        <div class="profile-card">
+                            <div class="card-header">
+                                <div class="window-dots">
+                                    <span class="dot red"></span>
+                                    <span class="dot yellow"></span>
+                                    <span class="dot green"></span>
+                                </div>
+                                <span class="card-title-tag">qa_profile.json</span>
+                            </div>
+                            <div class="code-snippet">
+                                <pre><code><span class="code-keyword">const</span> qaEngineer = {
+  <span class="code-prop">name</span>: <span class="code-string">"Subhash PGV"</span>,
+  <span class="code-prop">totalExperience</span>: <span class="code-string">"4.7 Years"</span>,
+  <span class="code-prop">itQaExperience</span>: <span class="code-string">"2+ Years"</span>,
+  <span class="code-prop">coreDomains</span>: [
+    <span class="code-string">"Enterprise Web Apps"</span>,
+    <span class="code-string">"AEM Content Portals"</span>,
+    <span class="code-string">"ATS Platforms"</span>,
+    <span class="code-string">"E-Commerce"</span>
+  ],
+  <span class="code-prop">futureFocus</span>: <span class="code-string">"Dynamics 365 & Power Platform"</span>,
+  <span class="code-prop">location</span>: <span class="code-string">"Hyderabad, India"</span>
+};</code></pre>
+                            </div>
+                            <div class="card-stats">
+                                <div class="stat-item">
+                                    <span class="stat-val">4.7</span>
+                                    <span class="stat-lbl">Years Experience</span>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-val">2+</span>
+                                    <span class="stat-lbl">IT QA Focus</span>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-val">100%</span>
+                                    <span class="stat-lbl">Quality Mindset</span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section id="skills" class="section skills-section">
-        <div class="container">
-            <h2 class="section-title">Technical Skills</h2>
-            <div class="skills-grid">
-                <!-- Testing Skills -->
-                <div class="skill-category">
-                    <div class="category-header">
-                        <i class="fas fa-vial"></i>
-                        <h3>Testing Skills</h3>
-                    </div>
-                    <ul class="skill-list">
-                        <li>Manual Testing</li>
-                        <li>Functional Testing</li>
-                        <li>UI Testing</li>
-                        <li>Regression</li>
-                        <li>Smoke Testing</li>
-                        <li>Performance Validation</li>
-                    </ul>
+        <!-- About Me Section -->
+        <section class="section about-section" id="about">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Professional Background</span>
+                    <h2 class="section-title">About Me</h2>
                 </div>
-
-                <!-- Automation Tools -->
-                <div class="skill-category">
-                    <div class="category-header">
-                        <i class="fas fa-robot"></i>
-                        <h3>Automation Tools</h3>
+                <div class="about-grid">
+                    <div class="about-card glass-card">
+                        <div class="about-main-text">
+                            <p>
+                                <strong>Subhash PGV</strong> is a QA Engineer with <strong>4.7 years of overall
+                                    professional experience</strong>, including <strong>2+ years in IT quality
+                                    assurance</strong> for enterprise web applications, AEM websites, e-commerce
+                                platforms, and applicant tracking systems.
+                            </p>
+                            <p>
+                                His experience covers test case design, functional testing, regression testing, smoke
+                                and sanity testing, UAT, API testing with Postman, backend validation using SQL, defect
+                                tracking, automation using Selenium WebDriver with Java and TestNG, cross-browser
+                                validation, Agile/Scrum delivery, and release support.
+                            </p>
+                            <p>
+                                He has worked closely with developers, product owners, stakeholders, and business teams
+                                to understand requirements, validate business workflows, identify defects, and support
+                                stable releases.
+                            </p>
+                            <p class="highlight-box">
+                                <i class="fas fa-lightbulb"></i> Alongside his QA career, he is expanding his knowledge
+                                of <strong>Microsoft Dynamics 365 and Power Platform</strong> with the goal of building
+                                deeper expertise in business applications and functional/technical consulting.
+                            </p>
+                        </div>
                     </div>
-                    <ul class="skill-list">
-                        <li>Selenium WebDriver</li>
-                        <li>TestNG</li>
-                        <li>JUnit</li>
-                        <li>Cucumber (BDD)</li>
-                        <li>Jenkins</li>
-                        <li>Postman</li>
-                    </ul>
-                </div>
 
-                <!-- Programming & DB -->
-                <div class="skill-category">
-                    <div class="category-header">
-                        <i class="fas fa-code"></i>
-                        <h3>Programming & DB</h3>
+                    <div class="about-quick-info">
+                        <div class="info-card glass-card">
+                            <i class="fas fa-map-marker-alt card-icon"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Hyderabad, Telangana, India</p>
+                            </div>
+                        </div>
+                        <div class="info-card glass-card">
+                            <i class="fas fa-graduation-cap card-icon"></i>
+                            <div>
+                                <h4>Education</h4>
+                                <p>Master of Science — Acharya Nagarjuna University (2017)</p>
+                            </div>
+                        </div>
+                        <div class="info-card glass-card">
+                            <i class="fas fa-language card-icon"></i>
+                            <div>
+                                <h4>Languages</h4>
+                                <p>English (Professional), Telugu, Hindi</p>
+                            </div>
+                        </div>
+                        <div class="info-card glass-card">
+                            <i class="fab fa-linkedin card-icon"></i>
+                            <div>
+                                <h4>LinkedIn Profile</h4>
+                                <a href="https://linkedin.com/in/subhash-pgv-467a692b9" target="_blank"
+                                    rel="noopener">linkedin.com/in/subhash-pgv-467a692b9</a>
+                            </div>
+                        </div>
                     </div>
-                    <ul class="skill-list">
-                        <li>Java</li>
-                        <li>OOP</li>
-                        <li>Collections</li>
-                        <li>Exception Handling</li>
-                        <li>SQL (Joins, CRUD)</li>
-                    </ul>
-                </div>
-
-                <!-- Version Control & Management -->
-                <div class="skill-category">
-                    <div class="category-header">
-                        <i class="fas fa-code-branch"></i>
-                        <h3>Tools & Platforms</h3>
-                    </div>
-                    <ul class="skill-list">
-                        <li>Git & GitHub</li>
-                        <li>Jira</li>
-                        <li>ATS Platforms</li>
-                        <li>Salesforce Recruiting</li>
-                        <li>E-commerce Modules</li>
-                    </ul>
-                </div>
-
-                <!-- AI Testing -->
-                <div class="skill-category highlight-category">
-                    <div class="category-header">
-                        <i class="fas fa-brain"></i>
-                        <h3>AI Testing</h3>
-                    </div>
-                    <ul class="skill-list">
-                        <li>LLM Validation</li>
-                        <li>Prompt Testing</li>
-                        <li>Model Behavior Checking</li>
-                    </ul>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section id="projects" class="section projects-section">
-        <div class="container">
-            <h2 class="section-title">Featured Projects</h2>
-            <div class="projects-grid">
-                <!-- Project 1 -->
-                <article class="project-card">
-                    <div class="card-content">
-                        <h3 class="project-title">Job Details Extraction System</h3>
-                        <p class="project-desc">Automated system to extract job listings from multiple websites and
-                            store them in a database. Runs automatically via Jenkins scheduling.</p>
-                        <div class="tech-stack">
-                            <span>Selenium</span>
-                            <span>Java</span>
-                            <span>JUnit</span>
-                            <span>Jenkins</span>
+        <!-- Professional Journey Visual -->
+        <section class="section journey-section" id="journey">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Career Evolution</span>
+                    <h2 class="section-title">Professional Journey</h2>
+                    <p class="section-desc">A progressive path built on quality discipline, technical QA execution, and
+                        continuous expansion into business applications.</p>
+                </div>
+                <div class="journey-pipeline">
+                    <div class="journey-node">
+                        <div class="node-icon"><i class="fas fa-vial"></i></div>
+                        <div class="node-content">
+                            <h4>Quality & Analytical QA</h4>
+                            <p>GMP standards, compliance reports, root cause analysis at AMRI Global</p>
                         </div>
-                        <a href="#" class="btn-link">View Details <i class="fas fa-arrow-right"></i></a>
                     </div>
-                </article>
+                    <div class="journey-arrow"><i class="fas fa-chevron-right"></i></div>
 
-                <!-- Project 2 -->
-                <article class="project-card">
-                    <div class="card-content">
-                        <h3 class="project-title">ATS Job Update Service</h3>
-                        <p class="project-desc">Automated job refresh service built in C# that runs every 24 hours to
-                            synchronize ATS job listings.</p>
-                        <div class="tech-stack">
-                            <span>C#</span>
-                            <span>Automation</span>
-                            <span>ATS</span>
+                    <div class="journey-node">
+                        <div class="node-icon"><i class="fas fa-laptop-code"></i></div>
+                        <div class="node-content">
+                            <h4>Software QA</h4>
+                            <p>Test case design, functional & regression testing, defect management</p>
                         </div>
-                        <a href="#" class="btn-link">View Details <i class="fas fa-arrow-right"></i></a>
                     </div>
-                </article>
+                    <div class="journey-arrow"><i class="fas fa-chevron-right"></i></div>
 
-                <!-- Project 3 -->
-                <article class="project-card">
-                    <div class="card-content">
-                        <h3 class="project-title">Salesforce Recruiting App</h3>
-                        <p class="project-desc">End-to-end process design with custom objects (Position, Candidate),
-                            validation rules, lookup relationships, and formula fields.</p>
-                        <div class="tech-stack">
-                            <span>Salesforce</span>
-                            <span>CRM</span>
-                            <span>Process Design</span>
+                    <div class="journey-node">
+                        <div class="node-icon"><i class="fas fa-globe"></i></div>
+                        <div class="node-content">
+                            <h4>Enterprise Web Applications</h4>
+                            <p>AEM testing, e-commerce workflow validation, cross-browser support</p>
                         </div>
-                        <a href="#" class="btn-link">View Details <i class="fas fa-arrow-right"></i></a>
                     </div>
-                </article>
+                    <div class="journey-arrow"><i class="fas fa-chevron-right"></i></div>
 
-                <!-- Project 4 -->
-                <article class="project-card">
-                    <div class="card-content">
-                        <h3 class="project-title">RBAC Testing (ATS)</h3>
-                        <p class="project-desc">Verified permissions & route-level access for admin/user roles,
-                            performing edge-case testing for security and access control.</p>
-                        <div class="tech-stack">
-                            <span>Security Testing</span>
-                            <span>RBAC</span>
-                            <span>Manual Testing</span>
+                    <div class="journey-node">
+                        <div class="node-icon"><i class="fas fa-cogs"></i></div>
+                        <div class="node-content">
+                            <h4>ATS / API / Automation</h4>
+                            <p>Selenium WebDriver, TestNG, Postman REST API testing, SQL validation</p>
                         </div>
-                        <a href="#" class="btn-link">View Details <i class="fas fa-arrow-right"></i></a>
                     </div>
-                </article>
+                    <div class="journey-arrow"><i class="fas fa-chevron-right"></i></div>
+
+                    <div class="journey-node highlight-node">
+                        <div class="node-icon"><i class="fas fa-cubes"></i></div>
+                        <div class="node-content">
+                            <h4>Business Applications & Power Platform</h4>
+                            <p>Dynamics 365 CE, Power Apps, Power Automate, Dataverse learning</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section id="experience" class="section experience-section">
-        <div class="container">
-            <h2 class="section-title">Experience</h2>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <span class="date">Feb 2024 – Present</span>
-                        <h3 class="role">Software Tester</h3>
-                        <h4 class="company">Svegile</h4>
-                        <ul class="responsibilities">
-                            <li>Manual & Automation Testing for ATS & E-commerce platforms.</li>
-                            <li>Test case design, execution, and bug reporting in Jira.</li>
-                            <li>API testing using Postman.</li>
-                            <li>Building Selenium automation frameworks and managing Jenkins runs.</li>
+        <!-- Professional Experience Timeline -->
+        <section class="section experience-section" id="experience">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Work History</span>
+                    <h2 class="section-title">Professional Experience</h2>
+                </div>
+
+                <div class="timeline">
+                    <!-- Svegile Experience -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"><i class="fas fa-briefcase"></i></div>
+                        <div class="timeline-content glass-card">
+                            <div class="timeline-header">
+                                <div>
+                                    <h3 class="role-title">QA Engineer</h3>
+                                    <h4 class="company-name">Svegile Technologies — Hyderabad</h4>
+                                </div>
+                                <span class="timeline-date"><i class="far fa-calendar-alt"></i> March 2024 – May
+                                    2026</span>
+                            </div>
+                            <div class="project-tag-bar">
+                                <span class="tag-label"><strong>Project:</strong> Enterprise Applicant Tracking System
+                                    (ATS)</span>
+                                <span class="tag-label"><strong>Client:</strong> O2 Technologies, Inc.</span>
+                            </div>
+                            <div class="tech-badges">
+                                <span class="t-badge">Jira</span>
+                                <span class="t-badge">Postman</span>
+                                <span class="t-badge">SQL</span>
+                                <span class="t-badge">Selenium WebDriver</span>
+                                <span class="t-badge">Java</span>
+                                <span class="t-badge">TestNG</span>
+                                <span class="t-badge">Git</span>
+                                <span class="t-badge">Jenkins</span>
+                            </div>
+                            <ul class="resp-list resp-list-summary">
+                                <li>Prepared and maintained test scenarios, test cases, test data, and defect reports
+                                    for ATS modules covering candidate profiles, job workflows, authentication, and
+                                    integrations.</li>
+                                <li>Executed functional, regression, smoke, sanity, and UAT testing across planned
+                                    releases to verify business workflows.</li>
+                            </ul>
+                            <div class="resp-accordion-container">
+                                <ul class="resp-list resp-list-more">
+                                    <li>Automated high-value regression scenarios using Selenium WebDriver with Java and
+                                        TestNG.</li>
+                                    <li>Tested REST API workflows in Postman for third-party integrations including
+                                        LinkedIn, Twilio, and Dice.</li>
+                                    <li>Validated login, session handling, authentication flows, API status codes,
+                                        request/response data, and negative scenarios.</li>
+                                    <li>Used SQL queries for backend validation of data created or updated through
+                                        application workflows.</li>
+                                    <li>Logged, prioritized, and tracked defects in Jira; followed up with developers
+                                        and verified fixes before release sign-off.</li>
+                                    <li>Analyzed requirements and participated in QA estimation to define test coverage
+                                        before sprint execution.</li>
+                                    <li>Worked with developers, product owners, and stakeholders during Agile
+                                        ceremonies, demos, and release cycles.</li>
+                                </ul>
+                            </div>
+                            <button class="exp-toggle-btn" aria-expanded="false">
+                                <span class="toggle-text">View Full Responsibilities (+7)</span>
+                                <i class="fas fa-chevron-down toggle-icon"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Deloitte Experience -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"><i class="fas fa-building"></i></div>
+                        <div class="timeline-content glass-card">
+                            <div class="timeline-header">
+                                <div>
+                                    <h3 class="role-title">Consultant</h3>
+                                    <h4 class="company-name">Deloitte</h4>
+                                </div>
+                                <span class="timeline-date"><i class="far fa-calendar-alt"></i> January 2022 – May
+                                    2022</span>
+                            </div>
+                            <div class="project-tag-bar">
+                                <span class="tag-label"><strong>Project:</strong> E-commerce Pet and Food Supplies
+                                    Application</span>
+                            </div>
+                            <div class="tech-badges">
+                                <span class="t-badge">Adobe Experience Manager (AEM)</span>
+                                <span class="t-badge">Postman</span>
+                                <span class="t-badge">DAM</span>
+                                <span class="t-badge">Jira</span>
+                            </div>
+                            <ul class="resp-list resp-list-summary">
+                                <li>Performed functional and regression testing for enterprise websites built on Adobe
+                                    Experience Manager (AEM).</li>
+                                <li>Validated AEM templates, components, content pages, workflows, links, and publishing
+                                    behavior across Dev, QA, UAT, Author, and Publish environments.</li>
+                            </ul>
+                            <div class="resp-accordion-container">
+                                <ul class="resp-list resp-list-more">
+                                    <li>Executed end-to-end test scenarios for content changes and customer-facing
+                                        website flows.</li>
+                                    <li>Performed cross-browser and UI validation to ensure consistency across
+                                        business-critical pages.</li>
+                                    <li>Logged defects in Jira, tracked resolution status, retested fixes, and supported
+                                        release readiness.</li>
+                                </ul>
+                            </div>
+                            <button class="exp-toggle-btn" aria-expanded="false">
+                                <span class="toggle-text">View Full Responsibilities (+3)</span>
+                                <i class="fas fa-chevron-down toggle-icon"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- AMRI Global Experience -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"><i class="fas fa-flask"></i></div>
+                        <div class="timeline-content glass-card">
+                            <div class="timeline-header">
+                                <div>
+                                    <h3 class="role-title">RS / QA Analyst</h3>
+                                    <h4 class="company-name">AMRI Global (now Curia)</h4>
+                                </div>
+                                <span class="timeline-date"><i class="far fa-calendar-alt"></i> August 2018 – September
+                                    2020</span>
+                            </div>
+                            <div class="project-tag-bar">
+                                <span class="tag-label"><strong>Domain:</strong> Analytical Quality Assurance & GMP
+                                    Compliance</span>
+                            </div>
+                            <div class="tech-badges">
+                                <span class="t-badge">GMP Compliance</span>
+                                <span class="t-badge">QA Documentation</span>
+                                <span class="t-badge">Validation Records</span>
+                                <span class="t-badge">Root Cause Analysis</span>
+                                <span class="t-badge">SOP Adherence</span>
+                            </div>
+                            <ul class="resp-list resp-list-summary">
+                                <li>Performed analytical quality assurance testing of pharmaceutical compounds under
+                                    GMP-regulated standards.</li>
+                                <li>Maintained validation records, QA documentation, compliance reports, and process
+                                    evidence with high accuracy.</li>
+                            </ul>
+                            <div class="resp-accordion-container">
+                                <ul class="resp-list resp-list-more">
+                                    <li>Supported root cause analysis, deviation handling, corrective actions, SOP
+                                        adherence, and audit readiness activities.</li>
+                                    <li>Built strong documentation discipline, quality process awareness, and
+                                        detail-oriented problem-solving approach.</li>
+                                </ul>
+                            </div>
+                            <button class="exp-toggle-btn" aria-expanded="false">
+                                <span class="toggle-text">View Full Responsibilities (+2)</span>
+                                <i class="fas fa-chevron-down toggle-icon"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Projects Section -->
+        <section class="section projects-section" id="projects">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Enterprise Testing Portfolio</span>
+                    <h2 class="section-title">Featured Enterprise Projects</h2>
+                    <p class="section-desc">Key enterprise systems validated through rigorous end-to-end testing, API
+                        validation, and release quality assurance.</p>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- Featured Project 1: ATS -->
+                    <article class="project-card featured-card glass-card">
+                        <div class="project-header">
+                            <div class="project-meta">
+                                <span class="project-category"><i class="fas fa-users-cog"></i> Recruitment
+                                    Technology</span>
+                                <span class="client-badge"><i class="fas fa-building"></i> Client: O2 Technologies,
+                                    Inc.</span>
+                            </div>
+                            <h3 class="project-title">Enterprise Applicant Tracking System (ATS)</h3>
+                            <h4 class="project-role-badge">QA Engineer | Enterprise Application</h4>
+                        </div>
+                        <div class="project-body">
+                            <p class="project-summary">
+                                An enterprise Applicant Tracking System designed to support end-to-end recruitment
+                                workflows involving candidate profiles, job management, authentication, applications,
+                                and third-party integrations.
+                            </p>
+
+                            <div class="project-section-block">
+                                <h5><i class="fas fa-plug"></i> Integrations Tested:</h5>
+                                <div class="integration-pills">
+                                    <span class="pill"><i class="fab fa-linkedin"></i> LinkedIn Integration</span>
+                                    <span class="pill"><i class="fas fa-sms"></i> Twilio Messaging API</span>
+                                    <span class="pill"><i class="fas fa-search-dollar"></i> Dice Job Board
+                                        Integration</span>
+                                </div>
+                            </div>
+
+                            <div class="project-section-block">
+                                <h5><i class="fas fa-tasks"></i> Testing Areas Covered:</h5>
+                                <div class="testing-areas-grid">
+                                    <span><i class="fas fa-check"></i> Functional Testing</span>
+                                    <span><i class="fas fa-check"></i> Regression Testing</span>
+                                    <span><i class="fas fa-check"></i> Smoke Testing</span>
+                                    <span><i class="fas fa-check"></i> Sanity Testing</span>
+                                    <span><i class="fas fa-check"></i> UAT Support</span>
+                                    <span><i class="fas fa-check"></i> REST API Testing</span>
+                                    <span><i class="fas fa-check"></i> Integration Testing</span>
+                                    <span><i class="fas fa-check"></i> UI & Usability</span>
+                                    <span><i class="fas fa-check"></i> Database Validation</span>
+                                    <span><i class="fas fa-check"></i> End-to-End Workflows</span>
+                                    <span><i class="fas fa-check"></i> Authentication & Session</span>
+                                    <span><i class="fas fa-check"></i> Negative Testing</span>
+                                </div>
+                            </div>
+
+                            <div class="project-contribution">
+                                <h5><i class="fas fa-star"></i> Key Contribution:</h5>
+                                <p>Validated critical recruitment workflows from UI through API and database layers,
+                                    automated high-value regression scenarios using Selenium with Java & TestNG, tested
+                                    third-party integrations, and supported release quality through structured defect
+                                    management in Jira.</p>
+                            </div>
+
+                            <div class="tech-stack-footer">
+                                <span>Selenium WebDriver</span>
+                                <span>Java</span>
+                                <span>TestNG</span>
+                                <span>Postman</span>
+                                <span>SQL</span>
+                                <span>Jira</span>
+                                <span>Git</span>
+                                <span>Jenkins</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Featured Project 2: AEM -->
+                    <article class="project-card featured-card glass-card">
+                        <div class="project-header">
+                            <div class="project-meta">
+                                <span class="project-category"><i class="fas fa-shopping-cart"></i> E-Commerce &
+                                    Enterprise Web</span>
+                                <span class="client-badge"><i class="fas fa-building"></i> Client: Deloitte / E-Commerce
+                                    Client</span>
+                            </div>
+                            <h3 class="project-title">Enterprise AEM Website Testing</h3>
+                            <h4 class="project-role-badge">QA | Adobe Experience Manager</h4>
+                        </div>
+                        <div class="project-body">
+                            <p class="project-summary">
+                                Enterprise e-commerce application (Pet & Food Supplies) built on Adobe Experience
+                                Manager (AEM) requiring complete content, component, and workflow verification.
+                            </p>
+
+                            <div class="project-section-block">
+                                <h5><i class="fas fa-layer-group"></i> Platform & Environments:</h5>
+                                <div class="integration-pills">
+                                    <span class="pill"><i class="fas fa-cubes"></i> Adobe Experience Manager</span>
+                                    <span class="pill"><i class="fas fa-database"></i> Digital Asset Management
+                                        (DAM)</span>
+                                    <span class="pill"><i class="fas fa-server"></i> Dev, QA, UAT, Author &
+                                        Publish</span>
+                                </div>
+                            </div>
+
+                            <div class="project-section-block">
+                                <h5><i class="fas fa-tasks"></i> Testing Areas Covered:</h5>
+                                <div class="testing-areas-grid">
+                                    <span><i class="fas fa-check"></i> AEM Templates</span>
+                                    <span><i class="fas fa-check"></i> Components</span>
+                                    <span><i class="fas fa-check"></i> Content Pages</span>
+                                    <span><i class="fas fa-check"></i> Content Workflows</span>
+                                    <span><i class="fas fa-check"></i> Link Validation</span>
+                                    <span><i class="fas fa-check"></i> Publishing Behavior</span>
+                                    <span><i class="fas fa-check"></i> Authoring Environment</span>
+                                    <span><i class="fas fa-check"></i> Publish Environment</span>
+                                    <span><i class="fas fa-check"></i> Customer-Facing Flows</span>
+                                    <span><i class="fas fa-check"></i> Cross-Browser Testing</span>
+                                    <span><i class="fas fa-check"></i> UI Consistency</span>
+                                    <span><i class="fas fa-check"></i> Release Readiness</span>
+                                </div>
+                            </div>
+
+                            <div class="project-contribution">
+                                <h5><i class="fas fa-star"></i> Key Contribution:</h5>
+                                <p>Performed functional, regression, UI, cross-browser, content, workflow, and
+                                    publishing validation for enterprise websites and supported release readiness
+                                    through structured defect tracking in Jira and retesting fixes.</p>
+                            </div>
+
+                            <div class="tech-stack-footer">
+                                <span>Adobe Experience Manager</span>
+                                <span>DAM</span>
+                                <span>Postman</span>
+                                <span>Jira</span>
+                                <span>Cross-Browser Validation</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Freelance & Personal Projects Section -->
+        <section class="section freelance-section" id="freelance">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Independent Client Work</span>
+                    <h2 class="section-title">Personal & Freelance Projects</h2>
+                    <p class="section-desc">Independent technology projects delivered for international clients,
+                        demonstrating direct requirement gathering, direct client collaboration, and full project
+                        ownership.</p>
+                </div>
+
+                <div class="freelance-wrapper">
+                    <article class="freelance-card glass-card">
+                        <div class="freelance-badge-bar">
+                            <span class="freelance-tag"><i class="fas fa-globe-asia"></i> International Freelance
+                                Project</span>
+                            <span class="region-tag"><i class="fas fa-map-marker-alt"></i> Client Region:
+                                Indonesia</span>
+                        </div>
+
+                        <!-- Clean Project Video Walkthrough Block -->
+                        <div class="project-video-block">
+                            <div class="video-container-clean">
+                                <video autoplay loop muted playsinline controls class="project-video-player"
+                                    preload="metadata">
+                                    <source src="assets/videos/Recording 2026-07-31 021748 (1).mp4" type="video/mp4">
+                                    <source src="assets/videos/ganesh-walkthrough (2).mp4" type="video/mp4">
+                                    Your browser does not support HTML5 video.
+                                </video>
+                            </div>
+                        </div>
+
+                        <div class="freelance-content-grid">
+                            <div class="freelance-details">
+                                <h3 class="freelance-title">Ganesh Indonesia — Cultural Organization Website</h3>
+                                <p class="freelance-overview">
+                                    A freelance website project created for an Indonesian cultural organization focused
+                                    on preserving, promoting, and presenting cultural heritage through a professional
+                                    online presence and community management portal.
+                                </p>
+
+                                <div class="freelance-block">
+                                    <h5><i class="fas fa-bullseye"></i> Project Objectives:</h5>
+                                    <ul class="bullet-grid">
+                                        <li>Establish a professional digital presence</li>
+                                        <li>Present the organization's cultural mission</li>
+                                        <li>Organize information in a clear structure</li>
+                                        <li>Improve online visibility & engagement</li>
+                                        <li>Present cultural activities professionally</li>
+                                        <li>Create a responsive website & admin portal</li>
+                                    </ul>
+                                </div>
+
+                                <div class="freelance-block">
+                                    <h5><i class="fas fa-user-check"></i> Direct Responsibilities & Execution:</h5>
+                                    <ul class="bullet-grid">
+                                        <li>Understanding client requirements directly</li>
+                                        <li>Communicating directly with international stakeholders</li>
+                                        <li>Planning website structure & content hierarchy</li>
+                                        <li>Designing user experience & layout responsiveness</li>
+                                        <li>Implementing front-end pages and admin portal styling</li>
+                                        <li>Domain, branding, and deployment coordination</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="freelance-meta-side">
+                                <div class="meta-box glass-card">
+                                    <h4><i class="fas fa-handshake"></i> Client Collaboration</h4>
+                                    <p>Highlighted direct international communication, end-to-end client requirement
+                                        gathering, design iterations, feedback loops, and deployment readiness.</p>
+                                </div>
+
+                                <div class="meta-box glass-card">
+                                    <h4><i class="fas fa-code"></i> Verified Technologies</h4>
+                                    <div class="tech-pills">
+                                        <span>HTML5</span>
+                                        <span>CSS3</span>
+                                        <span>JavaScript</span>
+                                        <span>Supabase Auth</span>
+                                        <span>Role-Based Access (RBAC)</span>
+                                        <span>Responsive Design</span>
+                                        <span>Web Hosting Setup</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technical Skills Section -->
+        <section class="section skills-section" id="skills">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Technical Competencies</span>
+                    <h2 class="section-title">Skills & Capabilities</h2>
+                </div>
+
+                <div class="skills-matrix-grid">
+                    <!-- Category 1: Testing -->
+                    <div class="skill-matrix-card glass-card">
+                        <div class="matrix-header">
+                            <i class="fas fa-vial matrix-icon"></i>
+                            <h3>Testing Methodologies</h3>
+                        </div>
+                        <ul class="matrix-list">
+                            <li><i class="fas fa-check-circle"></i> Manual Testing</li>
+                            <li><i class="fas fa-check-circle"></i> Functional Testing</li>
+                            <li><i class="fas fa-check-circle"></i> Regression Testing</li>
+                            <li><i class="fas fa-check-circle"></i> Smoke Testing</li>
+                            <li><i class="fas fa-check-circle"></i> Sanity Testing</li>
+                            <li><i class="fas fa-check-circle"></i> User Acceptance Testing (UAT)</li>
+                            <li><i class="fas fa-check-circle"></i> End-to-End Testing</li>
+                            <li><i class="fas fa-check-circle"></i> Cross-Browser Validation</li>
+                            <li><i class="fas fa-check-circle"></i> UI & Usability Testing</li>
+                            <li><i class="fas fa-check-circle"></i> AEM Website Testing</li>
+                            <li><i class="fas fa-check-circle"></i> Basic Performance Validation</li>
+                        </ul>
+                    </div>
+
+                    <!-- Category 2: Automation & API -->
+                    <div class="skill-matrix-card glass-card">
+                        <div class="matrix-header">
+                            <i class="fas fa-robot matrix-icon"></i>
+                            <h3>Automation & API Testing</h3>
+                        </div>
+                        <ul class="matrix-list">
+                            <li><i class="fas fa-check-circle"></i> Selenium WebDriver</li>
+                            <li><i class="fas fa-check-circle"></i> Java</li>
+                            <li><i class="fas fa-check-circle"></i> TestNG Framework</li>
+                            <li><i class="fas fa-check-circle"></i> Postman API Client</li>
+                            <li><i class="fas fa-check-circle"></i> REST API Testing</li>
+                            <li><i class="fas fa-check-circle"></i> API Response & Code Validation</li>
+                            <li><i class="fas fa-check-circle"></i> Jenkins CI Integration</li>
+                            <li><i class="fas fa-check-circle"></i> Git Version Control</li>
+                        </ul>
+                    </div>
+
+                    <!-- Category 3: Database & Tools -->
+                    <div class="skill-matrix-card glass-card">
+                        <div class="matrix-header">
+                            <i class="fas fa-database matrix-icon"></i>
+                            <h3>Database & Tools</h3>
+                        </div>
+                        <ul class="matrix-list">
+                            <li><i class="fas fa-check-circle"></i> SQL Backend Validation</li>
+                            <li><i class="fas fa-check-circle"></i> MySQL</li>
+                            <li><i class="fas fa-check-circle"></i> Jira Defect Management</li>
+                            <li><i class="fas fa-check-circle"></i> Azure DevOps</li>
+                            <li><i class="fas fa-check-circle"></i> GitHub</li>
+                            <li><i class="fas fa-check-circle"></i> Eclipse IDE</li>
+                            <li><i class="fas fa-check-circle"></i> VS Code</li>
+                            <li><i class="fas fa-check-circle"></i> AEM Author & Publish</li>
+                            <li><i class="fas fa-check-circle"></i> Digital Asset Manager (DAM)</li>
+                        </ul>
+                    </div>
+
+                    <!-- Category 4: Methodologies -->
+                    <div class="skill-matrix-card glass-card">
+                        <div class="matrix-header">
+                            <i class="fas fa-sitemap matrix-icon"></i>
+                            <h3>Processes & Methodologies</h3>
+                        </div>
+                        <ul class="matrix-list">
+                            <li><i class="fas fa-check-circle"></i> Agile / Scrum Ceremonies</li>
+                            <li><i class="fas fa-check-circle"></i> Software Development Life Cycle (SDLC)</li>
+                            <li><i class="fas fa-check-circle"></i> Software Testing Life Cycle (STLC)</li>
+                            <li><i class="fas fa-check-circle"></i> Test Planning & Strategy</li>
+                            <li><i class="fas fa-check-circle"></i> Test Case Design</li>
+                            <li><i class="fas fa-check-circle"></i> Defect Life Cycle Tracking</li>
+                            <li><i class="fas fa-check-circle"></i> QA Estimation</li>
+                            <li><i class="fas fa-check-circle"></i> Release Testing Sign-off</li>
+                        </ul>
+                    </div>
+
+                    <!-- Category 5: Web Technologies -->
+                    <div class="skill-matrix-card glass-card">
+                        <div class="matrix-header">
+                            <i class="fas fa-code matrix-icon"></i>
+                            <h3>Web Technologies</h3>
+                        </div>
+                        <ul class="matrix-list">
+                            <li><i class="fas fa-check-circle"></i> HTML5</li>
+                            <li><i class="fas fa-check-circle"></i> JavaScript</li>
+                            <li><i class="fas fa-check-circle"></i> TypeScript</li>
+                            <li><i class="fas fa-check-circle"></i> Web Application Architecture</li>
+                            <li><i class="fas fa-check-circle"></i> Responsive Web Testing</li>
                         </ul>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section id="strengths" class="section strengths-section">
-        <div class="container">
-            <h2 class="section-title">Strengths</h2>
-            <div class="strengths-wrapper">
-                <div class="strength-badge">
-                    <i class="fas fa-bug"></i>
-                    <span>Strong Debugging</span>
+        <!-- Current Learning & Future Focus: Business Applications -->
+        <section class="section business-apps-section" id="business-apps">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Current Learning & Professional Development</span>
+                    <h2 class="section-title">Business Applications & Future Focus</h2>
+                    <p class="section-desc">
+                        Building deeper expertise in Microsoft business applications, particularly Dynamics 365 and
+                        Power Platform, while leveraging existing experience in QA, enterprise applications, business
+                        workflows, API testing, data validation, and software quality.
+                    </p>
                 </div>
-                <div class="strength-badge">
-                    <i class="fas fa-search"></i>
-                    <span>Detail-Oriented</span>
-                </div>
-                <div class="strength-badge">
-                    <i class="fas fa-bolt"></i>
-                    <span>Quick Learner</span>
-                </div>
-                <div class="strength-badge">
-                    <i class="fas fa-layer-group"></i>
-                    <span>Framework Creation</span>
-                </div>
-                <div class="strength-badge">
-                    <i class="fas fa-file-alt"></i>
-                    <span>Documentation Excellence</span>
-                </div>
-                <div class="strength-badge">
-                    <i class="fas fa-robot"></i>
-                    <span>AI-Driven Testing</span>
+
+                <div class="business-grid">
+                    <!-- Dynamics 365 Card -->
+                    <div class="biz-card glass-card">
+                        <div class="biz-card-icon"><i class="fas fa-chart-line"></i></div>
+                        <h3>Dynamics 365</h3>
+                        <p class="biz-card-subtitle">Customer Engagement & CRM</p>
+                        <ul class="biz-list">
+                            <li>Dynamics 365 Customer Engagement concepts</li>
+                            <li>CRM business processes & module understanding</li>
+                            <li>End-to-end business application testing</li>
+                            <li>Configuration & functional setup understanding</li>
+                            <li>Custom entity & workflow validation</li>
+                        </ul>
+                    </div>
+
+                    <!-- Power Platform Card -->
+                    <div class="biz-card glass-card">
+                        <div class="biz-card-icon"><i class="fas fa-bolt"></i></div>
+                        <h3>Power Platform</h3>
+                        <p class="biz-card-subtitle">Low-Code & Process Automation</p>
+                        <ul class="biz-list">
+                            <li>Power Apps (Canvas & Model-Driven app concepts)</li>
+                            <li>Power Automate cloud flows & automation</li>
+                            <li>Dataverse tables, relationships & security</li>
+                            <li>Business process automation validation</li>
+                            <li>Low-code solution testing principles</li>
+                        </ul>
+                    </div>
+
+                    <!-- Strategic Career Direction Card -->
+                    <div class="biz-card glass-card highlight-biz-card">
+                        <div class="biz-card-icon"><i class="fas fa-compass"></i></div>
+                        <h3>Career Direction</h3>
+                        <p class="biz-card-subtitle">Strategic Evolution Path</p>
+                        <div class="career-path-flow">
+                            <span class="path-step">QA Engineering</span>
+                            <i class="fas fa-arrow-down"></i>
+                            <span class="path-step">Business Workflows & APIs</span>
+                            <i class="fas fa-arrow-down"></i>
+                            <span class="path-step">Dynamics 365 & Power Platform</span>
+                            <i class="fas fa-arrow-down"></i>
+                            <span class="path-step highlighted">Functional / Technical Business App Roles</span>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section id="contact" class="section contact-section">
-        <div class="container">
-            <h2 class="section-title">Get In Touch</h2>
-            <div class="contact-wrapper">
-                <div class="contact-info">
-                    <div class="info-item">
-                        <i class="fas fa-envelope"></i>
-                        <div>
-                            <h4>Email</h4>
-                            <a href="mailto:contact@subhashpgv.com">contact@subhashpgv.com</a>
-                        </div>
+        <!-- Professional Strengths Section -->
+        <section class="section strengths-section" id="strengths">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Core Pillars</span>
+                    <h2 class="section-title">Professional Strengths</h2>
+                </div>
+
+                <div class="strengths-grid">
+                    <div class="strength-card glass-card">
+                        <i class="fas fa-shield-alt strength-icon"></i>
+                        <h3>Quality Mindset</h3>
+                        <p>Strong focus on reliable releases, thorough regression coverage, and proactive defect
+                            prevention.</p>
                     </div>
-                    <div class="info-item">
-                        <i class="fab fa-linkedin"></i>
-                        <div>
-                            <h4>LinkedIn</h4>
-                            <a href="#">linkedin.com/in/subhashpgv</a>
-                        </div>
+
+                    <div class="strength-card glass-card">
+                        <i class="fas fa-project-diagram strength-icon"></i>
+                        <h3>Business Workflow Understanding</h3>
+                        <p>Ability to understand end-to-end business workflows and user journeys rather than testing
+                            isolated screens.</p>
                     </div>
-                    <div class="info-item">
-                        <i class="fab fa-github"></i>
-                        <div>
-                            <h4>GitHub</h4>
-                            <a href="#">github.com/subhashpgv</a>
+
+                    <div class="strength-card glass-card">
+                        <i class="fas fa-cogs strength-icon"></i>
+                        <h3>Technical QA</h3>
+                        <p>Hands-on validation experience across UI, API, database layer SQL queries, and automation
+                            scripts.</p>
+                    </div>
+
+                    <div class="strength-card glass-card">
+                        <i class="fas fa-file-alt strength-icon"></i>
+                        <h3>Documentation Discipline</h3>
+                        <p>Structured test case creation, precise defect logs, clear validation evidence, and compliance
+                            readiness.</p>
+                    </div>
+
+                    <div class="strength-card glass-card">
+                        <i class="fas fa-users strength-icon"></i>
+                        <h3>Agile Collaboration</h3>
+                        <p>Active participation in Scrum ceremonies, close alignment with developers, product owners,
+                            and stakeholders.</p>
+                    </div>
+
+                    <div class="strength-card glass-card">
+                        <i class="fas fa-graduation-cap strength-icon"></i>
+                        <h3>Continuous Learning</h3>
+                        <p>Constantly expanding technical knowledge, currently specializing in Microsoft Business
+                            Applications.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section contact-section" id="contact">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Get In Touch</span>
+                    <h2 class="section-title">Let's Connect</h2>
+                    <p class="section-desc">Open to QA opportunities, business application roles, freelance technology
+                        projects, and professional collaborations.</p>
+                </div>
+
+                <div class="contact-single-wrapper">
+                    <div class="contact-card glass-card">
+                        <div class="contact-info-grid">
+                            <div class="info-row">
+                                <div class="info-icon"><i class="fas fa-map-marker-alt"></i></div>
+                                <div>
+                                    <h4>Location</h4>
+                                    <p>Hyderabad, Telangana, India</p>
+                                </div>
+                            </div>
+
+                            <div class="info-row">
+                                <div class="info-icon"><i class="fas fa-envelope"></i></div>
+                                <div>
+                                    <h4>Email</h4>
+                                    <a href="mailto:subhashpgv1128@gmail.com">subhashpgv1128@gmail.com</a>
+                                </div>
+                            </div>
+
+                            <div class="info-row">
+                                <div class="info-icon"><i class="fas fa-phone-alt"></i></div>
+                                <div>
+                                    <h4>Phone</h4>
+                                    <a href="tel:+919052010682">+91 9052010682</a>
+                                </div>
+                            </div>
+
+                            <div class="info-row">
+                                <div class="info-icon"><i class="fab fa-linkedin-in"></i></div>
+                                <div>
+                                    <h4>LinkedIn</h4>
+                                    <a href="https://linkedin.com/in/subhash-pgv-467a692b9" target="_blank"
+                                        rel="noopener">linkedin.com/in/subhash-pgv-467a692b9</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="contact-cta-box">
+                            <a href="Subhash_PGV_Resume.pdf" target="_blank" download="Subhash_PGV_Resume"
+                                class="btn btn-primary btn-block">
+                                <i class="fas fa-download"></i> Download Resume (Subhash_PGV_Resume.pdf)
+                            </a>
                         </div>
                     </div>
                 </div>
-                <form class="contact-form" id="contactForm">
-                    <div class="form-group">
-                        <input type="text" id="name" required placeholder="Your Name">
-                    </div>
-                    <div class="form-group">
-                        <input type="email" id="email" required placeholder="Your Email">
-                    </div>
-                    <div class="form-group">
-                        <textarea id="message" rows="5" required placeholder="Your Message"></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary btn-block">Send Message</button>
-                </form>
             </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
+    <!-- Footer -->
     <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <p>&copy; 2024 Subhash PGV. All rights reserved.</p>
+        <div class="container footer-container">
+            <div class="footer-left">
+                <a href="#home" class="logo">Subhash<span class="accent">PGV</span></a>
+                <p>QA Engineer | Manual & Automation Testing | Business Applications</p>
+            </div>
+            <div class="footer-center">
+                <p>&copy; 2026 Subhash PGV. All rights reserved.</p>
+            </div>
+            <div class="footer-right">
                 <div class="social-links">
-                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                    <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
-                    <a href="#" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                    <a href="https://linkedin.com/in/subhash-pgv-467a692b9" target="_blank" aria-label="LinkedIn"><i
+                            class="fab fa-linkedin-in"></i></a>
+                    <a href="mailto:subhashpgv1128@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
                 </div>
             </div>
         </div>
     </footer>
+
+    <!-- Mobile Floating Quick Navigation Bar -->
+    <nav class="mobile-quick-nav glass-card" id="mobileQuickNav" aria-label="Mobile Quick Navigation">
+        <a href="#home" class="qnav-item active" aria-label="Intro"><i class="fas fa-user"></i><span>Intro</span></a>
+        <a href="#experience" class="qnav-item" aria-label="Experience"><i
+                class="fas fa-briefcase"></i><span>Experience</span></a>
+        <a href="#projects" class="qnav-item" aria-label="Projects"><i
+                class="fas fa-desktop"></i><span>Projects</span></a>
+        <a href="#freelance" class="qnav-item" aria-label="Freelance"><i
+                class="fas fa-globe-asia"></i><span>Freelance</span></a>
+        <a href="#skills" class="qnav-item" aria-label="Skills"><i
+                class="fas fa-layer-group"></i><span>Skills</span></a>
+        <a href="#contact" class="qnav-item" aria-label="Contact"><i
+                class="fas fa-envelope"></i><span>Contact</span></a>
+    </nav>
 
     <script src="script.js"></script>
 </body>
